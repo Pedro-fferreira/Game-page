@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Macondo&family=Poppins&family=Righteous&family=Sarala&display=swap');
+/*font-family: 'Libre Baskerville', serif;
+font-family: 'Macondo', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;/*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.sec-1{
+    background: rgba(0, 128, 0, 0.3) 
+}
+nav{
+    padding-top: 15px;
+     text-align: right;
+     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+ nav ul li{
+    display: inline;
+    justify-content: space-between;
+    list-style: none;
+    padding: 8px 12px;
+    
+}
+nav a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color:#fff;
+    font-weight: 450;
+    margin-left: 3px;
+}
+.main{
+    
+    padding: 8px;
+     text-align:center;
+}
+.main h1{
+    margin-top: 20px;
+    font-size: 62px;
+}
+.img-game{
+    width: 20%;
+    display: inline-block;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #000;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #fff;
+   color: #82B1FF;
+}
+
+
+.paragrafro{
+    padding-top: 5px;
+    font-size:20px;
+    margin: 10px 0 40px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 6px;
+    gap: 10px;
+    
+   
+}
+.sec-2 h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px;
+    
+
+}
+.sec-2 p{
+    text-align: center;
+    font-size: 22px;
+    padding: 2px 5px 15px 0px;
+}
+.card-1{
+    text-align: center;
+    font-size: 20px;
+    border: 0.7px solid ;
+    border-radius: 15px;
+    padding: 3px 3px ;
+    background: rgba(0, 128, 0, 0.3);
+    margin-left: 5px;
+    color: #E0F7FA;
+
+}
+.final-p{
+    margin-top: 5px;
+    text-align:right;
+}
+
+.sec-3{
+    border-top: 4px #82B1FF;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #82B1FF;
+}
+.footer{
+    margin-top:10px;
+    font-size: 16px;
+    color: #fff;
+}
